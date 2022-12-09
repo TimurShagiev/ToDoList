@@ -1,0 +1,74 @@
+.todolist{
+    background-color: rgb(105, 203, 241);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+    align-items: center;
+    width:800px;
+}
+.todolist h2{
+    color:white;
+    font-size: 15px;
+}
+.tasks{
+    display: flex;
+    font-size: 30px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    margin-bottom: 200px;
+}
+#edittask{
+    text-align: center;
+    background: transparent;
+    border: 0 none;
+    font-size: 30px;
+}
+#applyedit{
+    font-size:30px;
+}
+#taskBlock{
+    margin-right:100px;
+    margin-top: 15px;
+}
+#iconsBig{
+    display: flex;
+    margin-top: 10px;
+}
+.icons{
+    margin:0px 10px;
+}
+.addtask{
+    display: flex;
+    margin-bottom:30px;
+    justify-content: space-around;
+}
+.nametask{
+    width:500px;
+    height:100px;
+    background-color: rgb(182, 230, 249);
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 30px;
+}
+.nametask input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: transparent;
+    border: 0 none;
+    font-size: 30px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+.addbutton{
+    width:200px;
+    height:100px;
+    background-color:rgb(91, 112, 120);
+    text-align: center;
+    border-radius: 30px;
+}
+.addbutton p{
+    margin-top:30px;
+    font-size: 30px;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}

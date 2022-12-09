@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" 
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="todolist">
+        <h1>СПИСОК ДЕЛ:</h1>
+        <h2>Примечание: кнопки работают, только у самого последнего задания. Честно говоря, тут вошел в тупик</h2>
+        <div class="tasks">
+            <div id="taskBlock">
+                <!-- <input type="text" placeholder="редактировать задачу" id="edittask"> -->
+                <!-- <button id="applyedit"><i class="fa-sharp fa-solid fa-pen-to-square"></i></button> -->
+            </div>
+            <div id="iconsBlock">
+                <!-- <div class="icons" id="complete"><i class="fa-sharp fa-solid fa-check"></i></div> -->
+                <!-- <div class="icons" id="edit"><i class="fa-sharp fa-solid fa-pen-to-square"></i></div> -->
+                <!-- <div class="icons" id="delete"><i class="fa-sharp fa-solid fa-trash"></i></div> -->
+            </div>
+        </div>
+        <footer>
+            <div class="addtask">
+                <div class="nametask">
+                    <input type="text" placeholder="Название задачи" id="task">
+                </div>
+                <div class="addbutton"><p>Добавить</p></div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
